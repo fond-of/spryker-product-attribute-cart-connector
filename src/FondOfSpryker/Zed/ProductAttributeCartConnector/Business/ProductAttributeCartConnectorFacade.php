@@ -6,7 +6,7 @@ use Generated\Shared\Transfer\CartChangeTransfer;
 use Spryker\Zed\Kernel\Business\AbstractFacade;
 
 /**
- * @method \Pyz\Zed\ProductAttributeCartConnector\Business\ProductAttributeCartConnectorBusinessFactory getFactory()
+ * @method \FondOfSpryker\Zed\ProductAttributeCartConnector\Business\ProductAttributeCartConnectorBusinessFactory getFactory()
  */
 class ProductAttributeCartConnectorFacade extends AbstractFacade implements ProductAttributeCartConnectorFacadeInterface
 {
