@@ -2,7 +2,7 @@
 
 namespace FondOfSpryker\Zed\ProductAttributeCartConnector;
 
-use Pyz\Zed\ProductAttributeCartConnector\Dependency\Facade\ProductAttributeCartConnectorToProductAttributeBridge;
+use FondOfSpryker\Zed\ProductAttributeCartConnector\Dependency\Facade\ProductAttributeCartConnectorToProductAttributeBridge;
 use Spryker\Zed\Kernel\AbstractBundleDependencyProvider;
 use Spryker\Zed\Kernel\Container;
 
