@@ -12,9 +12,6 @@
     "prefer-stable": true,
     "require": {
         "php": ">=7.1",
-        "fond-of-php/active-campaign": "^1.0.0",
-        "spryker/kernel": "^3.37.5",
-        "spryker/zed-request": "^3.8.1",
         "spryker/cart": "^7.2.0",
         "spryker/product-attribute": "^1.1.2"
     },
