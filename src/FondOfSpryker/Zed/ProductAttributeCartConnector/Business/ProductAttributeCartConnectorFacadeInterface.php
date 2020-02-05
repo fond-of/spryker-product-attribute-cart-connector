@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: paf
- * Date: 08.05.18
- * Time: 16:28
- */
 
 namespace FondOfSpryker\Zed\ProductAttributeCartConnector\Business;
 

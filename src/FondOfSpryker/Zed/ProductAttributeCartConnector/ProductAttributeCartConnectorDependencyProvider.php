@@ -8,7 +8,7 @@ use Spryker\Zed\Kernel\Container;
 
 class ProductAttributeCartConnectorDependencyProvider extends AbstractBundleDependencyProvider
 {
-    const FACADE_PRODUCT_ATTRIBUTES = 'FACADE_PRODUCT_ATTRIBUTES';
+    public const FACADE_PRODUCT_ATTRIBUTES = 'FACADE_PRODUCT_ATTRIBUTES';
 
     /**
      * @param \Spryker\Zed\Kernel\Container $container

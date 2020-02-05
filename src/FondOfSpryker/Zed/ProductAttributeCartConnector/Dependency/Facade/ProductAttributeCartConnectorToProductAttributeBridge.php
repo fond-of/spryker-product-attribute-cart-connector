@@ -10,8 +10,6 @@ class ProductAttributeCartConnectorToProductAttributeBridge implements ProductAt
     protected $productAttributeFacade;
 
     /**
-     * ProductAttributeCartConnectorToProductAttributeBridge constructor.
-     *
      * @param \Spryker\Zed\ProductAttribute\Business\ProductAttributeFacade $productAttributeFacade
      */
     public function __construct($productAttributeFacade)

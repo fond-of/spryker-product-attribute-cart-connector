@@ -9,6 +9,7 @@ use Spryker\Zed\Kernel\Communication\AbstractPlugin;
 /**
  * @method \FondOfSpryker\Zed\ProductAttributeCartConnector\Business\ProductAttributeCartConnectorFacade getFacade()
  * @method \FondOfSpryker\Zed\ProductAttributeCartConnector\Business\ProductAttributeCartConnectorCommunicationFactory getFactory()
+ * @method \FondOfSpryker\Zed\ProductAttributeCartConnector\ProductAttributeCartConnectorConfig getConfig()
  */
 class ProductAttributeCartPlugin extends AbstractPlugin implements ItemExpanderPluginInterface
 {
