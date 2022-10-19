@@ -2,6 +2,8 @@
 
 namespace FondOfSpryker\Zed\ProductAttributeCartConnector\Dependency\Facade;
 
+use Spryker\Zed\ProductAttribute\Business\ProductAttributeFacadeInterface;
+
 class ProductAttributeCartConnectorToProductAttributeBridge implements ProductAttributeCartConnectorToProductAttributeInterface
 {
     /**
@@ -12,7 +14,7 @@ class ProductAttributeCartConnectorToProductAttributeBridge implements ProductAt
     /**
      * @param \Spryker\Zed\ProductAttribute\Business\ProductAttributeFacade $productAttributeFacade
      */
-    public function __construct($productAttributeFacade)
+    public function __construct(ProductAttributeFacadeInterface $productAttributeFacade)
     {
         $this->productAttributeFacade = $productAttributeFacade;
     }
